@@ -1,0 +1,154 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_refueling
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-27 16:50+0000\n"
+"PO-Revision-Date: 2022-03-27 16:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__active
+msgid "Active"
+msgstr "Attivo"
+
+#. module: fleet_refueling
+#: model_terms:ir.ui.view,arch_db:fleet_refueling.fleet_vehicle_log_refueling_view_form
+msgid "Archived"
+msgstr "Archiviato"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__company_id
+msgid "Company"
+msgstr "Compagnia"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__amount
+msgid "Cost"
+msgstr "Pagato"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__create_uid
+msgid "Created by"
+msgstr "Creato da"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__create_date
+msgid "Created on"
+msgstr "Creato il"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__date
+msgid "Date"
+msgstr "Data"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,help:fleet_refueling.field_fleet_vehicle_log_refueling__date
+msgid "Date when the cost has been executed"
+msgstr "Data del pagamento"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle__display_name
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__fuel_price
+msgid "Fuel Price"
+msgstr "Prezzo Carburante"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,help:fleet_refueling.field_fleet_vehicle_log_refueling__quantity
+msgid "How much fuel has been loaded"
+msgstr "Quanto carburante è stato caricato"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle__id
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__id
+msgid "ID"
+msgstr ""
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle____last_update
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__quantity
+msgid "Quantity"
+msgstr "Quantità Caricata"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle__refueling_count
+msgid "Refueling Count"
+msgstr "Conteggio Rifornimenti"
+
+#. module: fleet_refueling
+#: code:addons/fleet_refueling/models/fleet_vehicle.py:0
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle__log_refueling
+#: model_terms:ir.ui.view,arch_db:fleet_refueling.fleet_vehicle_log_refueling_view_tree
+#, python-format
+msgid "Refueling Logs"
+msgstr "Rifornimenti"
+
+#. module: fleet_refueling
+#: model_terms:ir.ui.view,arch_db:fleet_refueling.fleet_vehicle_log_refueling_view_form
+msgid "Refueling logs"
+msgstr "Rifornimenti"
+
+#. module: fleet_refueling
+#: code:addons/fleet_refueling/models/fleet_vehicle_refueling.py:0
+#, python-format
+msgid "Refueling of {}"
+msgstr "Rifornimento del {}"
+
+#. module: fleet_refueling
+#: model_terms:ir.ui.view,arch_db:fleet_refueling.fleet_vehicle_view_form
+msgid "Refuelings"
+msgstr "Rifornimenti"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__user_id
+msgid "Responsible"
+msgstr "Responsabile"
+
+#. module: fleet_refueling
+#: model:ir.model,name:fleet_refueling.model_fleet_vehicle
+#: model:ir.model.fields,field_description:fleet_refueling.field_fleet_vehicle_log_refueling__vehicle_id
+msgid "Vehicle"
+msgstr "Veicolo"
+
+#. module: fleet_refueling
+#: model:ir.model,name:fleet_refueling.model_fleet_vehicle_log_refueling
+msgid "Vehicle Refueling"
+msgstr "Rifornimento Veicolo"
+
+#. module: fleet_refueling
+#: model:ir.model.fields,help:fleet_refueling.field_fleet_vehicle_log_refueling__vehicle_id
+msgid "Vehicle concerned by this log"
+msgstr "Veicolo"

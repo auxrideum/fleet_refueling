@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="fleet_vehicle_view_form" model="ir.ui.view">
+            <field name="name">fleet.vehicle.view.form.inherit.fleet_refueling</field>
+            <field name="model">fleet.vehicle</field>
+            <field name="inherit_id" ref="fleet.fleet_vehicle_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='button_box']" position="inside">
+                    <button name="open_refueling_logs" type="object" class="oe_stat_button" icon="fa-archive">
+                        <field name="refueling_count" widget="statinfo" string="Refuelings"/>
+                    </button>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
